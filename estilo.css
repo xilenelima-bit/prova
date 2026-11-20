@@ -1,0 +1,69 @@
+
+/* 1. Configurações gerais de toda a página (tag body) */
+body {
+  background-color: #ffbc7c;      /* Fundo escuro para evitar cansaço visual e brilho excessivo */
+  color: #6b2200;                 /* Texto branco para garantir alto contraste de leitura */
+  font-family: Arial, sans-serif; /* Fonte limpa e sem serifa (melhor para dislexia) */
+  font-size: 18px;                /* Tamanho de letra confortável para leitura */
+  line-height: 1.6;               /* Espaçamento entre linhas para as letras não se misturarem */
+  padding: 20px; 
+  border: 2px solid #6b2200; 
+  border-radius: 10px;     /* Borda branca visível ao redor da caixa */
+                     /* Espaço interno nas bordas da tela */
+}
+
+/* 2. Estilo dos Títulos Principais */
+h1, h2, h3 {
+  color: #6b2200;                 /* Amarelo ouro para destacar os títulos no fundo escuro */
+  margin-bottom: 15px;            /* Espaço abaixo de cada título */
+}
+
+/* 3. Estilo para Caixas de Conteúdo (classe .cartao) */
+.cartao {
+  background-color: #c79540;      /* Fundo cinza bem escuro para destacar o bloco */
+  border: 2px solid #6b2200; 
+  border-radius: 10px;     /* Borda branca visível ao redor da caixa */
+  padding: 15px;                  /* Espaço interno entre o texto e a borda */
+  margin-bottom: 20px;            /* Espaço externo abaixo da caixa */
+}
+.foto-destaque{
+  width: 200px;
+  border: 2px solid #6b2200; 
+  border-radius: 10px;     /* Borda branca visível ao redor da caixa */
+  padding: 15px;                  /* Espaço interno entre o texto e a borda */
+  margin-bottom: 20px;   
+
+}
+
+/* 4. Estilo dos Campos de Formulário (input) e Caixas de Grupo (fieldset) */
+fieldset {
+  border: 2px solid #6b2200; 
+  border-radius: 10px;     /* Borda amarela agrupando as opções */
+  padding: 15px;                  /* Espaço interno */
+  margin-bottom: 20px;            /* Espaço externo abaixo do grupo */
+}
+
+input {
+  background-color: #FFFFFF;      /* Fundo branco no campo de digitação */
+  color: #000000;                 /* Letra preta dentro do campo */
+  font-size: 18px;                /* Letra grande ao digitar */
+  padding: 8px;                   /* Espaço interno no campo */
+  border: 2px solid #6b2200;      /* Borda amarela no campo */
+  margin-bottom: 15px;            /* Espaço abaixo do campo */
+}
+
+/* 5. Estilo dos Botões (button) */
+button {
+  background-color: #6b2200;      /* Botão amarelo ouro de alto destaque */
+  color: #FFFFFF;                 /* Texto preto no botão (máximo contraste) */
+  font-size: 18px;                /* Tamanho de letra legível */
+  font-weight: bold;              /* Texto em negrito */
+  padding: 12px 20px;             /* Tamanho confortável para clicar */
+  border: none;                   /* Remove borda padrão feia */
+  cursor: pointer;                /* Mostra a mãozinha ao passar o mouse */
+}
+input:focus, button:focus {
+  outline: 4px solid #ff0000;     /* Contorno azul ciano brilhante */
+  outline-offset: 3px;            
+}
+

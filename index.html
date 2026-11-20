@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblioteca Comunitária</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <header>
+    <h1>Biblioteca Comunitária</h1>
+    </header>
+    <h2>Empréstimo de Livros</h2>
+    <section>
+    <img src="biblioteca.jpg" alt="imagem de uma biblioteca com livros" class="foto-destaque">
+    </section>
+    <form>
+        <label for="nome-usuario">Seu Nome:</label>
+        <input type="text" id="nome-usuario" required><br>
+
+        <label for="email-user">Seu Email:</label>
+        <input type="email" id="email-user" required>
+    </form>
+
+    <fieldset>
+  <legend>Selecione a opção desejada:</legend>
+
+  <input type="radio" id="entrega-casa" name="tipo-entrega" value="casa">
+  <label for="entrega-casa">Receber em casa</label><br>
+
+  <input type="radio" id="entrega-loja" name="tipo-entrega" value="loja">
+  <label for="entrega-loja">Retirar na loja</label>
+</fieldset>
+
+<fieldset>
+  <legend>Quais gêneros você procura?</legend>
+
+  <input type="checkbox" id="romance" name="interesses" value="romance">
+  <label for="livros-romance">Romance</label><br>
+
+  <input type="checkbox" id="livros-ficcao" name="interesses" value="ficcao">
+  <label for="livros-ficcao">Ficção</label><br>
+
+  <input type="checkbox" id="aventura" name="interesses" value="aventura">
+  <label for="livros-aventura">Aventura</label><br>
+
+  <input type="checkbox" id="cientifico" name="interesses" value="cientifico">
+  <label for="livros-cientifico">Científicos</label><br>
+
+</fieldset>
+
+
+
+<button type="submit">Enviar Cadastro</button>
+ <footer><strong><em>Projeto Biblioteca-2026</em></strong></footer>   
+</body>
+</html>
